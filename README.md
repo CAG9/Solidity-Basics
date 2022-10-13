@@ -6,4 +6,4 @@ A repository for storing the basics concept of smart contracts with Solidity.
 MIT License
 ## Tools and Technologies
 - Solidity
-- Remix Ide
+- Remix IDE
