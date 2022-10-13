@@ -9,10 +9,10 @@ contract ExampleString {
     function setMyString(string memory _myString) public {
         myString = _myString;
     }
-
+    //strings are like bytes arrays are expensive to store in the blockchain and we dtry not tu use it
     function compareTwoStrings(string memory _myString) public view returns(bool){
         return keccak256(abi.encodePacked(myString)) == keccak256(abi.encodePacked(_myString));
     }
 }
 
-//strings are like bytes arrays are expensive to store in the blockchain and we dtry not tu use it
+
